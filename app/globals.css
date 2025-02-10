@@ -4,10 +4,20 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
 }
 
 @layer base {
   :root {
     --radius: 0.5rem;
+  }
+}
+
+/* Add dark theme styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
   }
 }

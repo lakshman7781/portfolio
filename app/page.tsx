@@ -6,8 +6,7 @@ export default function Home() {
   return (
     <>
       <About />
-      <BorderBeam size={500} duration={12} delay={9} borderWidth={4} className="fixed inset-0" />
-
+      <BorderBeam  duration={12} delay={9} borderWidth={4} className="fixed inset-0" />
       <FlickeringGridRoundedDemo />
     </>
   );

@@ -1,8 +1,12 @@
 import Image from 'next/image';
+import { SparklesTextDemo } from "@/components/ui/Name";
 
 export default function About() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-16 bg-white dark:bg-black">
+    <section className="min-h-screen flex items-center justify-center px-4 py-16 bg-white dark:bg-black relative">
+      <h1 className="absolute top-4 left-4 text-2xl font-bold text-gray-800 dark:text-gray-200">
+      <SparklesTextDemo />
+      </h1>
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px]">
