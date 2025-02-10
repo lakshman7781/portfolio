@@ -1,7 +1,8 @@
 {
-  "version": 2,
-  "buildCommand": "next build",
-  "devCommand": "next dev",
-  "installCommand": "npm install",
-  "framework": "nextjs"
+  "dependencies": {
+    "framer-motion": "^10.x",
+    "class-variance-authority": "^latest",
+    "@types/react": "^latest",
+    "@types/react-dom": "^latest"
+  }
 }

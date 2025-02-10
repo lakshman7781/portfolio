@@ -1,4 +1,3 @@
-import { DockDemo } from "@/components/ui/Dockdemo";
 import { BorderBeam } from "@/components/magicui/border-beam";
 import { FlickeringGridRoundedDemo } from "@/components/ui/Flickeringgrid";
 import About from "@/components/ui/About";
@@ -10,7 +9,6 @@ export default function Home() {
       <BorderBeam size={500} duration={12} delay={9} borderWidth={4} className="fixed inset-0" />
 
       <FlickeringGridRoundedDemo />
-      <DockDemo />
     </>
   );
 }
