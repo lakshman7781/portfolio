@@ -28,14 +28,14 @@ export function FlickeringGridRoundedDemo() {
     }, []);
 
     return (
-      <div className="fixed inset-0 overflow-hidden">
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <FlickeringGrid
-            className="absolute inset-0 z-0 [mask-image:radial-gradient(450px_circle_at_center,white,transparent)]"
-            squareSize={4}
-            gridGap={4}
-            color="#60A5FA"
-            maxOpacity={0.5}
-            flickerChance={0.5}
+            className="absolute inset-0 -z-30 [mask-image:radial-gradient(1800px_circle_at_center,white,transparent)]"
+            squareSize={5}
+            gridGap={5}
+            color="#3B82F6"
+            maxOpacity={0.25}
+            flickerChance={0.3}
             height={dimensions.height}
             width={dimensions.width}
         />
